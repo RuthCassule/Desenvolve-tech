@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'Arima' , sans-serif;
+}
+
+.navegar{
+    display: flex;
+    flex-flow: row wrap ;
+    height: 100px;
+    background: rgb(214, 79, 30);
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+    
+}
+.logo h1{
+    font-family:'Pacifico',sans-serif  ;
+    color: #180f4a;
+    font-size: 30px;
+
+}
+
+.menu{
+    flex: 60%;
+    text-align: right;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+
+}
+.menu a:hover{
+    color :#180f4a;
+    border-top: 4px solid #180f4a;
+}
+#botao{
+    background: #180f4a;
+    padding: 10px 25px;
+    color:white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+
+}
+
+#botao:hover{
+    Border:none;
+    color: rgb(214, 79, 30);
+
+
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(235, 213, 173);
+    padding-top: 100px;
+
+}
+
+.manchete{
+    margin-left: 10%;
+    flex: 40%;
+}
+.manchete h2{
+    font-weight:900;
+    font-size: 20px;
+    color:#180f4a ;
+    padding: 0;
+    margin: 0;
+}
+
+.manchete p{
+    color: black;
+    text-align: left;
+}
+
+.contrate-btn{
+    display: inline-block;
+    background:#180f4a ;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.contrate-btn:hover{
+    background: rgb(214, 79, 30);
+}
+.img-manchete{
+    margin-left: 10%;
+    flex: 40%;
+    text-align: center;
+}
+section{
+    display: inline-block;
+    background:  rgb(235, 213, 173);
+    padding-top: wrap;
+    text-align: center;
+
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color:#180f4a ;
+}
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
+    
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+.texto-oculto{
+    display: none;
+}
+.card:hover{
+    background:rgb(214, 79, 30) ;
+    color: white;
+    padding: 40px;
+
+}
+
+.card:hover img{
+    display:none ;
+
+}
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+footer{
+    height: 600px;
+    background-image: linear-gradient(180deg,#180f4a,#090422,black);
+    text-align: center;
+    border-top: 5px solid rgb(214, 79, 30);
+}
+.logo-rodape{
+    padding: 100px;
+}
+.desenvolve{
+    font-family: 'pacifico', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+footer .contactos{
+    display: block;
+    flex: 30%;
+    justify-content: center;
+    text-align:right;
+   
+
+
+}

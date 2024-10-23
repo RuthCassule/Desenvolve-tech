@@ -1,0 +1,39 @@
+@media screen and ( max-width: 1005px){
+    .navegar{
+        position: relative;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .header{
+        padding-top: 50px;
+    }
+    .manchete{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .manchete p{
+        text-align: center;
+    }
+    .img-manchete{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+
+    }
+    .footer .contactos{
+        display: 100%;
+        text-align:justify;
+        
+    }
+
+}
+    
